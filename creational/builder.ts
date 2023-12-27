@@ -57,6 +57,7 @@ class Director {
   }
 
   constructPickUp(builder: Builder) {
+    builder.reset();
     builder.setEngine("diesel");
     builder.setSeats(5);
   }
